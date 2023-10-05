@@ -43,4 +43,4 @@ deploy:
 	@forge script script/DeployBasicNft.s.sol:DeployBasicNFT $(NETWORK_ARGS)
 
 mint:
-	@forge script script/Interactions.s.sol:mintNftOnContract ${NETWORK_ARGS}
+	@forge script script/Interactions.s.sol:MintBasicNFT ${NETWORK_ARGS}
