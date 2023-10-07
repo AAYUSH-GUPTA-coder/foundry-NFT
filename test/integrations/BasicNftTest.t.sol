@@ -1,10 +1,9 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity 0.8.18;
 
-// import {ERC721} from "@solmate/tokens/ERC721.sol";
 import {Test, console} from "forge-std/Test.sol";
-import {DeployBasicNFT} from "../script/DeployBasicNft.s.sol";
-import {BasicNft} from "../src/BasicNft.sol";
+import {DeployBasicNFT} from "../../script/DeployBasicNft.s.sol";
+import {BasicNft} from "../../src/BasicNft.sol";
 
 contract BasicNftTest is Test {
     DeployBasicNFT public deployer;
